@@ -1,14 +1,15 @@
 let a = 17;
 let b = 10;
 let c = a - b;
-console.log(c);
+let d = 7;
+alert(c + d);
 
-let hour = 10;
-let minute = 40;
-let seconds = 25;
-console.log(`${hour}:${minute}:${seconds}`);
+let hour = prompt("Час", '');
+let minute = prompt("Минута", '');
+let seconds = prompt("Секунда", '');
+alert(`${hour}:${minute}:${seconds}`);
 
 let num = 10;
-let result = num++;
-let number = num++;
+num = ++num;
+num = ++num;
 alert(num);
