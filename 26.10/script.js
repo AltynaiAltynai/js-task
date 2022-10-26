@@ -49,5 +49,5 @@ num -= 14;
 num *= 5;
 num /= 7;
 ++num;
-++num;
+--num;
 alert(num);
