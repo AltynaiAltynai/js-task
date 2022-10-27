@@ -10,13 +10,17 @@ if(new_visitor === 'Админ'){
     let password = prompt('Пароль');
     if(password === 'Черный властелин'){
         alert('Добро пожаловать');
-    } else if(password === null){
-        alert('Вход отменен');
+    } else if(password){
+        alert('Я вас не знаю');
+    } else if(password === ''){
+        alert('Введите пароль');
     } else{
-        alert('Я вас не знаю')
+        alert('Вход отменен');
     }
-} else if(new_visitor === null){
-    alert('Вход отменен')
-} else {
-    alert('Я вас не знаю')
+} else if(new_visitor){
+    alert('Я вас не знаю');
+} else if(new_visitor === ''){
+    alert('Введите пароль');
+} else{
+    alert('Вход отменен');
 }
