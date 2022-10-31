@@ -17,7 +17,7 @@ if (a <= 1 && b >= 3){
     console.log(d);
 }
 
-let time = prompt('Введите число');
+let time = +prompt('Введите число');
 if (time <= 15){
     alert('значение попадает в первую четверть');
 } else if(time >= 16 && time <= 30){
