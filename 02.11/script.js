@@ -1,19 +1,19 @@
 // 1
-function hello(text) {
-    console.log(text);
+function hello() {
+    return 'Привет, Javascript';
 }
-hello('Привет, Javascript!');
+console.log(hello());
 
 // 2
-let number = prompt('Введите число');
-let result = number * number;
-function mathAction(result) {
-    console.log(result);
+function mathAction() {
+    let number = prompt('Введите число');
+    let multiply = number * number;
+    console.log(multiply);
 }
-mathAction(result);
+mathAction();
 
 // 3
 function getName(name = ' гость') {
     console.log(`привет ${name}`);
 }
-getName('Василий');
+getName('василий');
