@@ -1,9 +1,8 @@
 // 1
-const numbers = [1, 2, 3, 4, 5];
-const multiplyNumbers = numbers.map(function (item ) {
-    return item * 2;
-})
-console.log(multiplyNumbers);
+const calcMultiply = data => data.map(item => item * 2)
+console.log(calcMultiply([1, 2, 3]));
+console.log(calcMultiply([4, 1, 1, 1, 4]));
+console.log(calcMultiply([2, 2, 2, 2, 2, 2]));
 
 
 // 2
@@ -18,12 +17,13 @@ console.log(myFunc('a', 3));
 
 
 // 3
-const rightNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-function newReverse(numbers) {
-    const leftNumbers = [];
-    for (let i = 0; i < rightNumbers.length; i++) {
-        leftNumbers[i] =rightNumbers[(rightNumbers.length - 1) - i];
+const data = [1, 2, 3];
+function newFunc(numb) {
+    const newData = [];
+    for (let i = 0; i < data.length; i++) {
+        newData[i] =data[(data.length - 1) - i];
     }
-    return leftNumbers;
+    return newData;
 }
-console.log(newReverse());
+
+console.log(newFunc(data));
