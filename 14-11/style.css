@@ -1,0 +1,38 @@
+.btn{
+    padding: 20px 20px;
+    border: 0;
+    background-color: hotpink;
+    color: white;
+    margin: 10px;
+}
+
+.notification{
+    display: none;
+    padding: 15px 30px;
+    margin: 10px 30px;
+    background-color: #cfe2ff;
+    color: #084298;
+    border-color: #b6d4fe;
+}
+
+/*.second{
+    display: none;
+    padding: 15px 30px;
+    margin: 10px 30px;
+    background-color: #41464b;
+    color: #e2e3e5;
+    border-color: #d3d6d8;
+}
+
+.third{
+    display: none;
+    padding: 15px 30px;
+    margin: 10px 30px;
+    background-color: #0f5132;
+    color: #d1e7dd;
+    border-color: #badbcc;
+}*/
+
+.welcome{
+    display: block;
+}

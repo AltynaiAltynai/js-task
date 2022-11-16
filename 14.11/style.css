@@ -1,0 +1,15 @@
+.btn{
+    padding: 15px 30px;
+    border: 0;
+    background-color: darkblue;
+    color: white;
+    margin: 10px;
+}
+
+.btn-primary{
+    background-color: darkblue;
+}
+
+.btn-secondary{
+    background-color: goldenrod;
+}
