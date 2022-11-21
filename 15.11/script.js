@@ -8,9 +8,9 @@ const showNotification = (options) => {
     notification.classList.remove('d-none');
     notification.classList.add(options.className);
     setTimeout(function () {
-    notification.classList.remove(options.className);
-    notification.classList.add('d-none');
-    }, 10000);
+        notification.classList.remove(options.className);
+        notification.classList.add('d-none');
+        }, 10000);
     btn_close.addEventListener('click', () => {
         notification.classList.remove(options.className);
         notification.classList.add('d-none');
